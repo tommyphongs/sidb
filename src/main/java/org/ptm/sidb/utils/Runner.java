@@ -76,13 +76,10 @@ public class Runner {
 	public static final Runner hdecr            =  new Runner("hdecr"          , false, false);
 	public static final Runner hgetall          =  new Runner("hgetall"        , false, false);
 	public static final Runner hvals            =  new Runner("hvals"          , false, false);
-	public static final Runner multi_hexists    =  new Runner("multi_hexists"  , false, false);
 	public static final Runner multi_hsize      =  new Runner("multi_hsize"    , false, false);
 	public static final Runner zdecr            =  new Runner("zdecr"          , false, false);
 	public static final Runner zremrangebyrank  =  new Runner("zremrangebyrank", false, false);
 	public static final Runner zremrangebyscore =  new Runner("zremrangebyscor", false, false);
-	public static final Runner multi_zexists    =  new Runner("multi_zexists"  , false, false);
-	public static final Runner multi_zsize      =  new Runner("multi_zsize"    , false, false);
 	public static final Runner qpush_front      =  new Runner("qpush_front"    , false, false);
 	public static final Runner qpush_back       =  new Runner("qpush_back"     , false, false);
 	public static final Runner qpop_front       =  new Runner("qpop_front"     , false, false);
@@ -90,7 +87,6 @@ public class Runner {
 	public static final Runner qfix             =  new Runner("qfix"           , false, false);
 	public static final Runner qrange           =  new Runner("qrange"         , false, false);
 	public static final Runner dump             =  new Runner("dump"           , false, false);
-	public static final Runner sync140          =  new Runner("sync140"        , false, false);
 	public static final Runner compact          =  new Runner("compact"        , false, false);
 	public static final Runner key_range        =  new Runner("key_range"      , false, false);
 	public static final Runner expire           =  new Runner("expire"         , false, false);
@@ -100,7 +96,6 @@ public class Runner {
     public static final Runner getbit = new Runner("getbit", false, false);
     public static final Runner setbit = new Runner("setbit", false, false);
     public static final Runner countbit = new Runner("countbit", false, false);
-    public static final Runner substr = new Runner("substr", false, false);
     public static final Runner getrange = new Runner("getrange", false, false);
     public static final Runner strlen = new Runner("strlen", false, false);
     public static final Runner redis_bitcount = new Runner("redis_bitcount", false, false);
